@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    background-image: url(./imagens/background-pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 1000px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; /*deixa o logo no canto e o menu no outro*/
+}
+li {
+    list-style: none; /*tira o marcador de lista*/
+    float: left; /*deixa os itens do menu flutuante (um ao lado do outro) a esquerda*/
+}
+
+#banner {
+    background-color: rgb(3, 3, 3, 0.5);
+    padding: 30px 70px 30px 70px;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 30px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+section {
+    padding-top: 650px;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#sabores-pizzas {
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+#sabores-pizzas table {
+    background-color: #2a2a2a;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+    }
+    #sabores-pizzas table td,
+    #sabores-pizzas table th {
+    border: 1px #000 solid;
+    font-size: 12px;
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 20%;
+    }
+    #sabores-pizzas .texto-negativo {
+    color: #fb3958;
+    }
+    #sabores-pizzas .texto-positivo {
+    color: #87b50f;
+    }
